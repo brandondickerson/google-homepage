@@ -1,0 +1,125 @@
+* {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	}
+.nav {
+	width: 100%;
+	position: relative;
+	top: 10px;
+	height: 30px;
+	
+}
+.main {
+	width: 100%;
+	clear: both;
+	position: relative;
+	top: 150px;
+	
+}
+.nav li {
+	display: inline;
+	padding-right: 20px;
+	float: right;
+
+}
+.logo {
+	width: 269px;
+	height: 95px;
+	clear: both;
+	margin: 0 auto;
+	display: block;
+
+}
+.inputs {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+	text-align: center;
+
+}
+span.sprite {
+	background: url("sprite.png");
+	background-position: -132px -38px;
+	opacity: .55;
+	display: block;
+	position: relative;
+	top: -7px;
+	width: 30px;
+	height: 30px;
+}
+input {
+	width: 486px;
+	height: 30px;
+	border: 1px solid #000000;
+	margin: 170px auto -10px auto;
+	position: relative;
+	display: block;
+	font-size: 16px;
+}
+input.searchbar {
+	width: 460px;
+	height: 22px;
+	padding: 6px 9px 0px 9px;
+	border: 1px solid #777;
+}
+input.search {
+	width: auto;
+	display: inline-block;
+	margin: auto;
+	background-color: #f5f5f5;
+	border: 1px solid #dcdcdc;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: 11px 8px 11px 8px;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 11px;
+	color: #444;
+
+}
+.footer {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+
+}
+.footer li {
+	display: inline;
+}
+.l_links {
+	float: left;
+	display: inline;
+}
+.l_links li {
+	padding-right: 27px;
+}
+.r_links {
+	float: right;
+}
+.r_links li {
+	padding-right: 27px;
+}
+a {
+	color: #777;
+	text-decoration: none;
+}
+a.signin {
+	color: #fff;
+	background-color: #4285f4;
+	border-radius: 2px;
+	font-weight: bold;
+	border: 1px solid #12c;
+	padding: 6px 12px;
+
+}
+a:hover {
+	text-decoration: underline;
+}
